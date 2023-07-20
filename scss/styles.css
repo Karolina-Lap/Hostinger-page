@@ -65,4 +65,127 @@ button {
   height: 32px;
   background-color: white;
   border-style: solid 2px;
+  cursor: pointer;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.first-board button {
+  background-color: rgba(71, 12, 126, 0.903);
+  color: white;
+  border: none;
+  width: 350px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 138px;
+}
+
+.second-board {
+  padding: 20px;
+}
+.second-board img {
+  width: 700px;
+}
+
+.first-title {
+  font-weight: bold;
+  color: rgba(71, 12, 126, 0.903);
+  font-size: 30px;
+  width: 350px;
+  display: flex;
+  font-family: "Titillium Web", sans-serif;
+  padding: 50px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.second-title {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgba(71, 12, 126, 0.903);
+  width: 390px;
+  font-size: 15px;
+  display: flex;
+  margin-left: 90px;
+  padding-left: 50px;
+  margin-bottom: 15px;
+}
+
+.third-title {
+  color: rgba(71, 12, 126, 0.903);
+  font-size: xxx-large;
+  font-weight: bold;
+  display: flex;
+  margin-left: 90px;
+  padding-left: 50px;
+  margin-bottom: 15px;
+}
+.third-title span {
+  font-size: large;
+  font-weight: lighter;
+  display: flex;
+  align-items: end;
+}
+
+.fourth-title {
+  font-weight: bold;
+  color: rgba(71, 12, 126, 0.903);
+  display: flex;
+  margin-left: 90px;
+  padding-left: 50px;
+  margin-bottom: 15px;
+}
+
+.seventh-title {
+  color: rgba(71, 12, 126, 0.903);
+  display: flex;
+  margin-left: 90px;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+.seventh-title img {
+  height: 20px;
+}
+
+.countdown ul li {
+  border: 1px solid #2f1c6a;
+  padding: 20px;
+  display: flex;
+  margin-left: -27px;
+}
+
+.countdown ul {
+  margin-left: 127px;
+}
+
+.second-content-pic {
+  display: flex;
+  padding: 90px;
+  margin-left: 99px;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.another-title {
+  font-weight: bold;
+  color: rgba(71, 12, 126, 0.903);
+  font-size: 20px;
+  display: flex;
+  font-family: "Titillium Web", sans-serif;
+  justify-content: center;
+}
+
+.another-title2 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgba(71, 12, 126, 0.903);
+  font-size: 10px;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.titles {
+  display: block;
 }/*# sourceMappingURL=styles.css.map */
