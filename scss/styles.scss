@@ -201,3 +201,178 @@ justify-content: center;
     display: block;
     
 }
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    border: solid 2px #d3d3d385;
+    padding: 35px;
+    margin-top: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.table1{
+
+    display: grid;
+    gap:10px;
+
+   span{ font-weight: bold;}
+   div{color: rgba(71, 12, 126, 0.903);}
+   img{width: 13px;
+   margin-right: 5px;
+}
+ 
+   
+}
+.table2{
+    border-right: solid 2px rgba(211, 211, 211, 0.5215686275);
+    margin-right: 40px;
+    margin-left: 32px;
+    border-left: 2px solid #d3d3d385;
+    display: grid;
+    padding: 26px;
+
+    div{
+        display: flex;
+    justify-content: center;
+    
+    }
+
+    div s{
+        font-size: 12px;
+    color: black;
+    margin-right: 16px;
+    }
+
+    div span{
+        border: solid 2px #bfaae294;
+    background-color: #bfaae257;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    }
+
+    button{
+        background-color:rgba(71, 12, 126, 0.903);
+        color: white ;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+    .third-title1{    
+         margin-top: 10px;
+        color: rgba(71, 12, 126, 0.903);
+        font-size: 37px;
+        font-weight: bold;
+        display: flex;
+        margin-bottom: 10px;
+        margin-left: 31px;
+
+    }
+    .third-title-span{font-size: large;
+        font-weight: lighter;
+        display: flex;
+        align-items: end;}
+    span{ font-weight: bold;}
+    div{color: rgba(71, 12, 126, 0.903);}
+
+    .promotion{
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .promotion2{
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+    }
+    .promotion3{
+        font-size: 10px;  
+    font-family: 'Roboto Condensed', sans-serif;
+
+    }
+}
+
+
+
+.table3{
+    display: grid;
+    gap: 12px;
+    span{ font-weight: bold;}
+   div{color: rgba(71, 12, 126, 0.903);}
+   img{width: 13px;
+    margin-right: 5px;}
+}
+.question-mark1{
+    width: 15px;
+   
+    
+}
+.question-mark2{
+    width: 15px;
+   
+    
+}
+.question-mark3{
+    width: 15px;
+   
+}
+.question-mark4{
+    width: 15px;
+    
+}
+.question-mark5{
+    width: 15px;
+    
+}
+.question-mark6{
+    width: 15px;
+    
+}
+.one{
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    width: 182px;
+    display: flex;
+}
+
+.payment-conditions{
+    display: flex;
+    justify-content: center;
+    color: rgba(71, 12, 126, 0.903);
+    font-weight: bold;
+    padding: 20px;
+
+    a{
+        text-decoration: none;
+    }
+}
+.text25{
+    color: rgba(71, 12, 126, 0.903);
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.text26{
+    color: rgba(71, 12, 126, 0.903);
+    font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 143px;
+    width: 76%;
+}

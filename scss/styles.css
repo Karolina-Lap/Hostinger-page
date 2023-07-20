@@ -188,4 +188,180 @@ button {
 
 .titles {
   display: block;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  border: solid 2px rgba(211, 211, 211, 0.5215686275);
+  padding: 35px;
+  margin-top: 45px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.table1 {
+  display: grid;
+  gap: 10px;
+}
+.table1 span {
+  font-weight: bold;
+}
+.table1 div {
+  color: rgba(71, 12, 126, 0.903);
+}
+.table1 img {
+  width: 13px;
+  margin-right: 5px;
+}
+
+.table2 {
+  border-right: solid 2px rgba(211, 211, 211, 0.5215686275);
+  margin-right: 40px;
+  margin-left: 32px;
+  border-left: 2px solid rgba(211, 211, 211, 0.5215686275);
+  display: grid;
+  padding: 26px;
+}
+.table2 div {
+  display: flex;
+  justify-content: center;
+}
+.table2 div s {
+  font-size: 12px;
+  color: black;
+  margin-right: 16px;
+}
+.table2 div span {
+  border: solid 2px rgba(191, 170, 226, 0.5803921569);
+  background-color: rgba(191, 170, 226, 0.3411764706);
+  border-style: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.table2 button {
+  background-color: rgba(71, 12, 126, 0.903);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.table2 .third-title1 {
+  margin-top: 10px;
+  color: rgba(71, 12, 126, 0.903);
+  font-size: 37px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 31px;
+}
+.table2 .third-title-span {
+  font-size: large;
+  font-weight: lighter;
+  display: flex;
+  align-items: end;
+}
+.table2 span {
+  font-weight: bold;
+}
+.table2 div {
+  color: rgba(71, 12, 126, 0.903);
+}
+.table2 .promotion {
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.table2 .promotion2 {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+.table2 .promotion3 {
+  font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.table3 {
+  display: grid;
+  gap: 12px;
+}
+.table3 span {
+  font-weight: bold;
+}
+.table3 div {
+  color: rgba(71, 12, 126, 0.903);
+}
+.table3 img {
+  width: 13px;
+  margin-right: 5px;
+}
+
+.question-mark1 {
+  width: 15px;
+}
+
+.question-mark2 {
+  width: 15px;
+}
+
+.question-mark3 {
+  width: 15px;
+}
+
+.question-mark4 {
+  width: 15px;
+}
+
+.question-mark5 {
+  width: 15px;
+}
+
+.question-mark6 {
+  width: 15px;
+}
+
+.one {
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  margin-top: -20px;
+  margin-bottom: 25px;
+  width: 182px;
+  display: flex;
+}
+
+.payment-conditions {
+  display: flex;
+  justify-content: center;
+  color: rgba(71, 12, 126, 0.903);
+  font-weight: bold;
+  padding: 20px;
+}
+.payment-conditions a {
+  text-decoration: none;
+}
+
+.text25 {
+  color: rgba(71, 12, 126, 0.903);
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.text26 {
+  color: rgba(71, 12, 126, 0.903);
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 143px;
+  width: 76%;
 }/*# sourceMappingURL=styles.css.map */
