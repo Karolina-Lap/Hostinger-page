@@ -1,9 +1,13 @@
+body {
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 20px 20px 60px rgba(128, 128, 128, 0.2);
-  margin: 0px;
+  margin-left: 27px;
   padding: 10px;
 }
 
@@ -364,4 +368,41 @@ button {
   font-family: "Roboto Condensed", sans-serif;
   margin-left: 143px;
   width: 76%;
+}
+
+.navbar2 {
+  margin-top: 70px;
+}
+
+.bar2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.bar2 div a {
+  text-decoration: none;
+}
+
+hr {
+  width: 35%;
+  border-style: groove;
+  border-color: rgba(167, 166, 166, 0.3019607843);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+.footer .horizontal-pic {
+  width: 450px;
+}
+.footer .vertical-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 286px;
 }/*# sourceMappingURL=styles.css.map */

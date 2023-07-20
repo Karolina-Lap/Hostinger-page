@@ -1,12 +1,14 @@
 
-
+body{
+    margin: 0;
+}
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 20px 20px 60px #80808033;
-    margin: 0px;
+    margin-left: 27px;
     padding: 10px
 }
 .language{
@@ -376,3 +378,46 @@ justify-content: center;
   margin-left: 143px;
     width: 76%;
 }
+
+.navbar2{
+    margin-top: 70px;
+}
+
+.bar2{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding: 10px;
+    
+
+}
+.bar2 div a{
+    text-decoration: none;
+}
+
+hr{
+    width: 35%;
+    border-style: groove;
+    border-color: #a7a6a64d;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  
+
+    .horizontal-pic{
+        width: 450px;
+       
+      
+    }
+    .vertical-pic{
+        object-fit: cover;
+        height: 286px;
+    }
+
+    }
+
