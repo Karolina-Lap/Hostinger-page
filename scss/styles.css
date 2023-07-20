@@ -1,1 +1,68 @@
-/*# sourceMappingURL=styles.css.map */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 20px 20px 60px rgba(128, 128, 128, 0.2);
+  margin: 0px;
+  padding: 10px;
+}
+
+.language span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+div ul {
+  display: flex;
+  gap: 30px;
+}
+div ul li {
+  list-style-type: none;
+}
+div ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hosting {
+  display: flex;
+  gap: 10px;
+}
+.hosting a {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.hosting img {
+  width: 10px;
+  height: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+.flag {
+  width: 20px;
+}
+
+button {
+  display: inline-block;
+  height: 32px;
+  background-color: white;
+  border-style: solid 2px;
+}/*# sourceMappingURL=styles.css.map */
