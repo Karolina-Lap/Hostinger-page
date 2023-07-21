@@ -5,18 +5,26 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     box-shadow: 20px 20px 60px #80808033;
-    margin-left: 27px;
-    padding: 10px
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
 }
+
+main{
+    padding: 100px;
+}
+
 .language{
 
     span{
         display: flex;
     align-items: center;
     gap:5px;
+    font-size: 12px;
+    font-weight: bold;
     }
 }
 div ul{
@@ -55,12 +63,18 @@ div ul{
     display: flex;
     gap: 30px;
     align-items: center;
-}
+    padding: 20px;
+
+    ul li a:hover{
+            color:rgba(122, 121, 124, 0.779);  
+    }
+    }
 
 .logo{
     display: flex;
     gap: 30px;
     align-items: center;
+    padding: 20px;
 }
 
  nav{
@@ -70,7 +84,8 @@ div ul{
 
 
 .flag{
-    width: 20px;
+    height: 16px;
+    width: 21px;
 }
 button{
     display: inline-block;
@@ -86,10 +101,10 @@ button{
 }
 .first-board{
     button{
-        background-color:rgba(71, 12, 126, 0.903);
+        background-color:rgb(103, 61, 230);
         color: white ;
         border: none;
-        width: 350px;
+        width: 300px;
         border-radius: 10px;
         cursor: pointer;
         margin-left: 138px;
@@ -106,21 +121,22 @@ button{
 }
 .first-title{
     font-weight: bold;
-    color: rgba(71, 12, 126, 0.903);
+    color: rgb( 47, 28, 106);
     font-size: 30px;
     width: 350px;
     display: flex;
-font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     padding: 50px;
     margin-left: 90px;
     margin-top: 10px;
+    line-height: normal;
 }
 
 
 
 .second-title{
     font-family: 'Roboto Condensed', sans-serif;
-    color: rgba(71, 12, 126, 0.903);
+    color: rgb( 105, 91, 147);
     width: 390px;
     font-size: 15px;
     display: flex;
@@ -131,7 +147,7 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .third-title{
-    color: rgba(71, 12, 126, 0.903);
+    color: rgb( 47, 28, 106);
     font-size: xxx-large;
     font-weight: bold;
     display: flex;
@@ -149,14 +165,14 @@ font-family: 'Titillium Web', sans-serif;
 }
 .fourth-title{
     font-weight: bold;
-    color: rgba(71, 12, 126, 0.903);
+    color: rgb( 47, 28, 106);
     display: flex;
     margin-left: 90px;
     padding-left: 50px;
     margin-bottom: 15px;
 }
 .seventh-title{
-    color: rgba(71, 12, 126, 0.903);
+    color: rgb(109, 96, 150);
     display: flex;
     margin-left: 90px;
     padding-left: 50px;
@@ -164,17 +180,10 @@ font-family: 'Titillium Web', sans-serif;
     img{height: 20px;
     }
 }
-
-.countdown ul li{
-    border: 1px solid #2f1c6a;
-    padding: 20px;
-    display: flex;
-    margin-left: -27px;
-
+.countdown{
+    margin-left: 130px;
 }
-.countdown ul{
-    margin-left: 127px;
-}
+
 .second-content-pic{
     display: flex;
     padding: 90px;
@@ -184,8 +193,8 @@ font-family: 'Titillium Web', sans-serif;
 }
 .another-title{
     font-weight: bold;
-    color: rgba(71, 12, 126, 0.903);
-    font-size: 20px;
+    color: rgb(47, 28, 106);
+    font-size: 31px;
     display: flex;
 font-family: 'Titillium Web', sans-serif;
 justify-content: center;
@@ -193,7 +202,7 @@ justify-content: center;
 .another-title2{
     font-family: 'Roboto Condensed', sans-serif;
     color: rgba(71, 12, 126, 0.903);
-    font-size: 10px;
+    font-size: 14px;
     justify-content: center;
     display: flex;
     margin-top: 20px;
@@ -221,8 +230,9 @@ justify-content: center;
     display: grid;
     gap:10px;
 
-   span{ font-weight: bold;}
-   div{color: rgba(71, 12, 126, 0.903);}
+   span{ font-weight: bold;
+    color: rgb(85, 70, 133);}
+   div{color: rgb(85, 70, 133);}
    img{width: 13px;
    margin-right: 5px;
 }
@@ -261,7 +271,7 @@ justify-content: center;
     }
 
     button{
-        background-color:rgba(71, 12, 126, 0.903);
+        background-color:rgb(103, 61, 230);
         color: white ;
         border: none;
         border-radius: 5px;
@@ -272,7 +282,7 @@ justify-content: center;
     }
     .third-title1{    
          margin-top: 10px;
-        color: rgba(71, 12, 126, 0.903);
+         color: rgb( 47, 28, 106);
         font-size: 37px;
         font-weight: bold;
         display: flex;
@@ -285,7 +295,7 @@ justify-content: center;
         display: flex;
         align-items: end;}
     span{ font-weight: bold;}
-    div{color: rgba(71, 12, 126, 0.903);}
+    div{color: rgb( 47, 28, 106);}
 
     .promotion{
         font-size: 9px;
@@ -311,35 +321,34 @@ justify-content: center;
 .table3{
     display: grid;
     gap: 12px;
-    span{ font-weight: bold;}
-   div{color: rgba(71, 12, 126, 0.903);}
+    span{ font-weight: bold;color: rgb(85, 70, 133);}
+   div{color: rgb(85, 70, 133);;}
    img{width: 13px;
     margin-right: 5px;}
 }
-.question-mark1{
-    width: 15px;
-   
-    
-}
+
 .question-mark2{
     width: 15px;
-   
-    
+    margin-left: 70px;
+
 }
 .question-mark3{
     width: 15px;
+    margin-left: 70px;
    
 }
 .question-mark4{
     width: 15px;
-    
+      margin-left: 60px;
 }
 .question-mark5{
     width: 15px;
+    margin-left: 65px;
     
 }
 .question-mark6{
     width: 15px;
+    margin-left: 50px;
     
 }
 .one{
@@ -354,22 +363,23 @@ justify-content: center;
 .payment-conditions{
     display: flex;
     justify-content: center;
-    color: rgba(71, 12, 126, 0.903);
     font-weight: bold;
     padding: 20px;
 
     a{
         text-decoration: none;
+        color: rgb(103, 61, 230);
     }
 }
 .text25{
-    color: rgba(71, 12, 126, 0.903);
+    color: rgb(47, 28, 106);;
     font-weight: bold;
     font-family: "Titillium Web", sans-serif;
     display: flex;
     justify-content: center;
     padding: 30px;
     font-size: 30px;
+    margin-top: 30px;
 }
 
 .text26{
@@ -377,6 +387,10 @@ justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
   margin-left: 143px;
     width: 76%;
+    display: flex;
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: -80px;
 }
 
 .navbar2{
@@ -386,38 +400,50 @@ justify-content: center;
 .bar2{
     display: flex;
     justify-content: center;
-    gap:30px;
+    font-size: 12px;
     padding: 10px;
     
 
 }
 .bar2 div a{
     text-decoration: none;
+    color: rgba(99, 96, 96, 0.685);
+    font-weight: bold;
+    border-bottom: 1px solid #dadce0;
+    color: #727586;
+    padding: 16px 10px 15px;
+    
+}
+.bar2 div a:hover{
+        color:rgb(109, 69, 231);
+        border-bottom: 1px solid rgb(109, 69, 231);
 }
 
-hr{
-    width: 35%;
-    border-style: groove;
-    border-color: #a7a6a64d;
-}
 
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+   gap: 10PX;
     margin-bottom: 50px;
     margin-top: 40px;
+    margin-left: 65px;
   
 
     .horizontal-pic{
-        width: 450px;
-       
+        width: 400px;
+        object-fit: cover;
+        
+        
+    
       
     }
     .vertical-pic{
         object-fit: cover;
-        height: 286px;
+        height: 254px;
+        object-fit: cover;
     }
 
     }
-
+  .last-pic{
+    margin-right: 152px;
+  }
