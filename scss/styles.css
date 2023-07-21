@@ -433,4 +433,85 @@ button {
 
 .last-pic {
   margin-right: 152px;
+}
+
+@media only screen and (max-width: 768px) {
+  .language {
+    display: none;
+  }
+  .nav-bar ul {
+    display: none;
+  }
+  .board {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-board {
+    display: block;
+    text-align: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
+  }
+  .third-title {
+    margin-left: 220px;
+  }
+  .fourth-title {
+    margin-left: 198px;
+  }
+  .seventh-title {
+    margin-left: 158px;
+  }
+  .second-board img {
+    width: 580px;
+  }
+  .second-content-pic {
+    width: 1000px;
+    margin-left: -197px;
+    margin-top: -47px;
+  }
+  .another-title {
+    font-size: 25px;
+    justify-content: end;
+  }
+  .another-title2 {
+    font-size: smaller;
+    margin-left: 90px;
+  }
+  .table {
+    border: none;
+    margin-left: 17px;
+    border: solid 2px rgba(211, 211, 211, 0.5215686275);
+    width: 493px;
+  }
+  .table1 {
+    width: 260px;
+  }
+  .table3 {
+    display: none;
+  }
+  .text25 {
+    justify-content: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    margin-left: -6px;
+    width: 560px;
+  }
+  .text26 {
+    justify-content: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    width: 600px;
+    margin-left: -3px;
+  }
+  .bar2 {
+    margin-left: 40px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px;
+  }
+  .footer .vertical-pic {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
